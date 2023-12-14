@@ -7,7 +7,7 @@ const app = express();
 // Defining a route for handling GET requests to the "/ping" endpoint.
 app.get("/ping", (req, res) => {
     // Sending the response "Hello World" for GET requests to "/ping".
-    res.send("Hello World");
+    res.send("Hello");
 });
 
 // Starting the web server on port 3000 and logging a message when the server starts.
