@@ -21,6 +21,13 @@ app.get("/session", (req, res) => {
     return res.send(name)
 })
 
+app.get("/destroy", (req, res) => {
+    req.session.destroy(function (error) {
+        console.log("Session Destroyed")
+    })
+    res.end()
+})
+
 app.listen(PORT, () => {
-    console.log(`http://localhost:${PORT}`);
+    console.log(`http://localhost:${PORT}`)
 })
