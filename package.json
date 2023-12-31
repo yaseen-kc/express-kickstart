@@ -2,10 +2,10 @@
   "name": "express-kickstart",
   "version": "1.0.0",
   "description": "",
-  "main": "getRequest.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon cookies/getRequest.js"
+    "start": "nodemon cookies/app.js"
   },
   "keywords": [],
   "author": "",

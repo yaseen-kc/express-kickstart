@@ -4,6 +4,7 @@ const fs = require("fs");
 let app = express();
 let movies = JSON.parse(fs.readFileSync('./data/movies.json'));
 
+fs
 
 app.get('/api/v1/movies', (req, res) => {
     res.status(200).json(movies)
